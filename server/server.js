@@ -31,8 +31,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://swipecart.vercel.app",
-      "https://swipecart-git-main-aditya-rai0s-projects.vercel.app"
+      "https://swipecart1.vercel.app",
+      "https://swipecart1-git-main-aditya-rai0s-projects.vercel.app"
     ],
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
