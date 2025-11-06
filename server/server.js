@@ -29,7 +29,11 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://swipecart.vercel.app"],
+    origin: [
+      "http://localhost:5173",
+      "https://swipecart.vercel.app",
+      "https://swipecart-git-main-aditya-rai0s-projects.vercel.app"
+    ],
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
